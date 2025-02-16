@@ -21,26 +21,6 @@ This is a basic calculator program written in C that offers a variety of mathema
 - A C compiler (e.g., `gcc`)
 - The math library (linked with `-lm`)
 
-### Compilation
-
-To compile the code, open your terminal and run:
-
-```sh
-gcc calculator.c -o calculator -lm
-```
-
-The `-lm` flag ensures that the math library is linked during compilation.
-
-### Running the Program
-
-After compilation, run the program using:
-
-```sh
-./calculator
-```
-
-You will be prompted to enter the required operands and then choose an operation from the menu. Follow the on-screen instructions to perform your calculation.
-
 ## ⚙ Known Issues
 
 - **Data Type Inconsistencies:** The program uses inconsistent data types for input (e.g., reading integers into double variables) which can lead to unexpected behavior.
